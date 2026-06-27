@@ -1,3 +1,11 @@
 {
-  "seen": {}
+  "seen": {
+    "doi:10.1364/ome.604856": {
+      "date": "2026-06-26",
+      "sent_at": "2026-06-27T18:36:39.154835+08:00",
+      "title": "Metasurface-based diffractive neural networks for security-enhanced image processing [Invited]",
+      "url": "https://doi.org/10.1364/ome.604856",
+      "venue": "Optical Materials Express"
+    }
+  }
 }
