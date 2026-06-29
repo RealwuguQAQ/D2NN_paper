@@ -18,7 +18,7 @@
 
 ## 功能
 
-- 每天北京时间 / 新加坡时间约 09:07 运行一次，对应 GitHub Actions cron：`7 1 * * *`。避开整点可降低 GitHub Actions 高峰期延迟或漏触发的概率。
+- 每天北京时间 / 新加坡时间在 09:07、09:22、09:37、09:52 提供四次候选触发。第一次成功发送后会记录当天状态，其余运行自动跳过；如果检索或邮件失败，后续时段会继续重试。
 - 检索最近 `lookback_days` 天内新发布或新上线的论文，默认 7 天。
 - 使用公开 API：arXiv API、Crossref REST API、Semantic Scholar Graph API。
 - 对 title、abstract、keywords 做关键词匹配，并用光学 / 衍射上下文约束减少误报。

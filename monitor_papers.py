@@ -611,12 +611,22 @@ class SeenStore:
     def has(self, paper: Paper) -> bool:
         return paper.primary_key in self.data["seen"]
 
+    def was_notified_on(self, run_date: date) -> bool:
+        notification = self.data.get("last_notification") or {}
+        return notification.get("date") == run_date.isoformat()
+
     def add(self, paper: Paper, sent_at: datetime) -> None:
         self.data["seen"][paper.primary_key] = {
             "title": paper.title,
             "venue": paper.venue,
             "date": paper.published_date.isoformat() if paper.published_date else None,
             "url": paper.url,
+            "sent_at": sent_at.isoformat(),
+        }
+
+    def mark_notification_sent(self, sent_at: datetime) -> None:
+        self.data["last_notification"] = {
+            "date": sent_at.date().isoformat(),
             "sent_at": sent_at.isoformat(),
         }
 
@@ -897,6 +907,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--dry-run", action="store_true", help="Print email but do not send or update seen_papers.json")
     parser.add_argument("--days", type=int, default=None, help="Override lookback_days")
     parser.add_argument("--no-openai", action="store_true", help="Disable OpenAI summaries for this run")
+    parser.add_argument("--force", action="store_true", help="Send even if today's notification was already sent")
     parser.add_argument("--log-level", default="INFO", choices=["DEBUG", "INFO", "WARNING", "ERROR"])
     return parser.parse_args()
 
@@ -915,7 +926,19 @@ def main() -> int:
     LOGGER.info("Searching papers from %s to %s", start.isoformat(), end.isoformat())
 
     seen = SeenStore.load(args.seen)
+    if not args.dry_run and not args.force and seen.was_notified_on(run_date):
+        LOGGER.info("A notification was already sent on %s; skipping this retry", run_date.isoformat())
+        return 0
+
     raw_papers, errors = fetch_all_papers(config, start, end)
+    source_config = config.get("search", {}).get("sources", {})
+    enabled_source_count = sum(
+        1 for source in ("arxiv", "crossref", "semantic_scholar") if source_config.get(source, True)
+    )
+    if enabled_source_count and len(errors) >= enabled_source_count:
+        LOGGER.error("All enabled paper sources failed; leaving this date unmarked so a later retry can run")
+        return 1
+
     accepted = filter_and_rank(raw_papers, config)
     new_papers = [paper for paper in accepted if not seen.has(paper)]
     LOGGER.info("Accepted %s papers, %s are new after seen-state filtering", len(accepted), len(new_papers))
@@ -937,11 +960,9 @@ def main() -> int:
     sent_at = now_in_timezone(config.get("timezone", "Asia/Shanghai"))
     for paper in new_papers:
         seen.add(paper, sent_at)
-    if new_papers:
-        seen.save()
-        LOGGER.info("Updated %s with %s new papers", args.seen, len(new_papers))
-    else:
-        LOGGER.info("No new papers; seen state unchanged")
+    seen.mark_notification_sent(sent_at)
+    seen.save()
+    LOGGER.info("Updated %s with the daily notification state and %s new papers", args.seen, len(new_papers))
     return 0
 
 

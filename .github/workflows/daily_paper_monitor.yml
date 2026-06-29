@@ -2,13 +2,17 @@ name: Daily D2NN Paper Monitor
 
 on:
   schedule:
-    # 09:07 Beijing / Singapore time = 01:07 UTC. Avoid minute 0 because
-    # GitHub Actions may delay or drop scheduled jobs during hourly peak load.
-    - cron: "7 1 * * *"
+    # Retry four times between 09:07 and 09:52 Beijing / Singapore time.
+    # The program records a successful daily send, so later retries exit early.
+    - cron: "7,22,37,52 1 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: daily-d2nn-paper-monitor-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   monitor:
@@ -38,7 +42,12 @@ jobs:
           OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
           SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
           CROSSREF_MAILTO: ${{ secrets.CROSSREF_MAILTO }}
-        run: python monitor_papers.py --config config.yaml --seen seen_papers.json
+        run: |
+          args=()
+          if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
+            args+=(--force)
+          fi
+          python monitor_papers.py --config config.yaml --seen seen_papers.json "${args[@]}"
 
       - name: Commit seen paper state
         if: success()
