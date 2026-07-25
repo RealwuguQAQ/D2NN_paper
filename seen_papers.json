@@ -1,7 +1,7 @@
 {
   "last_notification": {
-    "date": "2026-07-24",
-    "sent_at": "2026-07-24T12:26:10.115140+08:00"
+    "date": "2026-07-25",
+    "sent_at": "2026-07-25T12:21:38.345998+08:00"
   },
   "seen": {
     "doi:10.1038/s41377-026-02229-1": {
@@ -38,6 +38,13 @@
       "title": "Metasurface-based diffractive neural networks for security-enhanced image processing [Invited]",
       "url": "https://doi.org/10.1364/ome.604856",
       "venue": "Optical Materials Express"
+    },
+    "doi:10.1364/prj.591330": {
+      "date": "2026-07-24",
+      "sent_at": "2026-07-25T12:21:38.345998+08:00",
+      "title": "Optical diffractive layers 3D-integrated on a silicon photonic chip for high-density optical neural networks",
+      "url": "https://doi.org/10.1364/prj.591330",
+      "venue": "Photonics Research"
     }
   }
 }
