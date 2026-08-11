@@ -1,9 +1,16 @@
 {
   "last_notification": {
-    "date": "2026-08-10",
-    "sent_at": "2026-08-10T11:17:37.085285+08:00"
+    "date": "2026-08-11",
+    "sent_at": "2026-08-11T11:09:11.048280+08:00"
   },
   "seen": {
+    "doi:10.1021/acsphotonics.6c01125": {
+      "date": "2026-08-10",
+      "sent_at": "2026-08-11T11:09:11.048280+08:00",
+      "title": "Dual-Mode MOSCAP Silicon Microring Resonator for Energy-Efficient Analog Optical Computing",
+      "url": "https://doi.org/10.1021/acsphotonics.6c01125",
+      "venue": "ACS Photonics"
+    },
     "doi:10.1038/s41377-026-02229-1": {
       "date": "2026-07-15",
       "sent_at": "2026-07-15T12:11:31.095359+08:00",
