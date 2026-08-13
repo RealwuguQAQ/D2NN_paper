@@ -1,9 +1,16 @@
 {
   "last_notification": {
-    "date": "2026-08-12",
-    "sent_at": "2026-08-12T11:28:24.030061+08:00"
+    "date": "2026-08-13",
+    "sent_at": "2026-08-13T11:32:05.645644+08:00"
   },
   "seen": {
+    "arxiv:2608.12300v1": {
+      "date": "2026-08-12",
+      "sent_at": "2026-08-13T11:32:05.645644+08:00",
+      "title": "Quantum-limited imaging using diffractive optical neural networks",
+      "url": "http://arxiv.org/abs/2608.12300v1",
+      "venue": "arXiv (preprint)"
+    },
     "doi:10.1021/acsphotonics.6c01125": {
       "date": "2026-08-10",
       "sent_at": "2026-08-11T11:09:11.048280+08:00",
@@ -24,6 +31,13 @@
       "title": "All-optical computing towards 100-GHz clock rates",
       "url": "https://doi.org/10.1038/s41377-026-02314-5",
       "venue": "Light: Science &amp; Applications"
+    },
+    "doi:10.1038/s41586-026-10891-z": {
+      "date": "2026-08-12",
+      "sent_at": "2026-08-13T11:32:05.645644+08:00",
+      "title": "Degree-of-polarization modulation for high-dimensional optical computing",
+      "url": "https://doi.org/10.1038/s41586-026-10891-z",
+      "venue": "Nature"
     },
     "doi:10.1364/ao.597691": {
       "date": "2026-07-23",
