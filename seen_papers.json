@@ -1,7 +1,7 @@
 {
   "last_notification": {
-    "date": "2026-08-14",
-    "sent_at": "2026-08-14T11:28:55.676505+08:00"
+    "date": "2026-08-15",
+    "sent_at": "2026-08-15T10:17:52.618378+08:00"
   },
   "seen": {
     "arxiv:2608.12300v1": {
@@ -10,6 +10,13 @@
       "title": "Quantum-limited imaging using diffractive optical neural networks",
       "url": "http://arxiv.org/abs/2608.12300v1",
       "venue": "arXiv (preprint)"
+    },
+    "doi:10.1002/adom.71567": {
+      "date": "2026-08-14",
+      "sent_at": "2026-08-15T10:17:52.618378+08:00",
+      "title": "On‐Chip Photonic Neural Network Architectures",
+      "url": "https://doi.org/10.1002/adom.71567",
+      "venue": "Advanced Optical Materials"
     },
     "doi:10.1021/acsphotonics.6c01125": {
       "date": "2026-08-10",
