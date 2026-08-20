@@ -1,7 +1,7 @@
 {
   "last_notification": {
-    "date": "2026-08-19",
-    "sent_at": "2026-08-19T10:22:39.779452+08:00"
+    "date": "2026-08-20",
+    "sent_at": "2026-08-20T10:22:10.365157+08:00"
   },
   "seen": {
     "arxiv:2608.12300v1": {
@@ -37,6 +37,13 @@
       "sent_at": "2026-07-18T12:10:28.882043+08:00",
       "title": "All-optical computing towards 100-GHz clock rates",
       "url": "https://doi.org/10.1038/s41377-026-02314-5",
+      "venue": "Light: Science &amp; Applications"
+    },
+    "doi:10.1038/s41377-026-02325-2": {
+      "date": "2026-08-19",
+      "sent_at": "2026-08-20T10:22:10.365157+08:00",
+      "title": "On-chip non-volatile all-optical residual neural network accelerator",
+      "url": "https://doi.org/10.1038/s41377-026-02325-2",
       "venue": "Light: Science &amp; Applications"
     },
     "doi:10.1038/s41586-026-10891-z": {
