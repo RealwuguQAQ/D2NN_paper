@@ -1,7 +1,7 @@
 {
   "last_notification": {
-    "date": "2026-08-20",
-    "sent_at": "2026-08-20T10:22:10.365157+08:00"
+    "date": "2026-08-21",
+    "sent_at": "2026-08-21T10:35:38.021833+08:00"
   },
   "seen": {
     "arxiv:2608.12300v1": {
@@ -17,6 +17,13 @@
       "title": "On‐Chip Photonic Neural Network Architectures",
       "url": "https://doi.org/10.1002/adom.71567",
       "venue": "Advanced Optical Materials"
+    },
+    "doi:10.1002/lpor.71796": {
+      "date": "2026-08-20",
+      "sent_at": "2026-08-21T10:35:38.021833+08:00",
+      "title": "Hyper‐Parallel Optical Tensor Processors Toward Multitask Neural Networks",
+      "url": "https://doi.org/10.1002/lpor.71796",
+      "venue": "Laser &amp; Photonics Reviews"
     },
     "doi:10.1021/acsphotonics.6c01125": {
       "date": "2026-08-10",
@@ -52,6 +59,13 @@
       "title": "Degree-of-polarization modulation for high-dimensional optical computing",
       "url": "https://doi.org/10.1038/s41586-026-10891-z",
       "venue": "Nature"
+    },
+    "doi:10.1126/sciadv.aee9649": {
+      "date": "2026-08-21",
+      "sent_at": "2026-08-21T10:35:38.021833+08:00",
+      "title": "Programmable photonic neural engine with all-optical nonlinear activation and 40,000 connections",
+      "url": "https://doi.org/10.1126/sciadv.aee9649",
+      "venue": "Science Advances"
     },
     "doi:10.1145/3840398": {
       "date": "2026-08-13",
