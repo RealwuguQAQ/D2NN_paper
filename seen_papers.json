@@ -1,7 +1,7 @@
 {
   "last_notification": {
-    "date": "2026-09-02",
-    "sent_at": "2026-09-02T13:43:21.558718+08:00"
+    "date": "2026-09-03",
+    "sent_at": "2026-09-03T13:43:01.183387+08:00"
   },
   "seen": {
     "arxiv:2608.12300v1": {
@@ -59,6 +59,13 @@
       "title": "Degree-of-polarization modulation for high-dimensional optical computing",
       "url": "https://doi.org/10.1038/s41586-026-10891-z",
       "venue": "Nature"
+    },
+    "doi:10.1038/s44335-026-00096-y": {
+      "date": "2026-09-02",
+      "sent_at": "2026-09-03T13:43:01.183387+08:00",
+      "title": "Full-colour imaging behind a glass diffuser through a diffractive neural network with multi-wavelength channels",
+      "url": "https://doi.org/10.1038/s44335-026-00096-y",
+      "venue": "npj Unconventional Computing"
     },
     "doi:10.1126/sciadv.aee9649": {
       "date": "2026-08-21",
