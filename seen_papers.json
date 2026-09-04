@@ -1,7 +1,7 @@
 {
   "last_notification": {
-    "date": "2026-09-03",
-    "sent_at": "2026-09-03T13:43:01.183387+08:00"
+    "date": "2026-09-04",
+    "sent_at": "2026-09-04T13:47:58.547859+08:00"
   },
   "seen": {
     "arxiv:2608.12300v1": {
@@ -94,6 +94,13 @@
       "title": "T-ONN: Talbot propagation as a low-cost layer in free-space optical neural networks",
       "url": "https://doi.org/10.1364/josab.586315",
       "venue": "Journal of the Optical Society of America B"
+    },
+    "doi:10.1364/oe.597279": {
+      "date": "2026-09-03",
+      "sent_at": "2026-09-04T13:47:58.547859+08:00",
+      "title": "Enhancing diffractive neural networks via gradient decoupling: a geometric perspective on physical constraints",
+      "url": "https://doi.org/10.1364/oe.597279",
+      "venue": "Optics Express"
     },
     "doi:10.1364/ome.604856": {
       "date": "2026-06-26",
