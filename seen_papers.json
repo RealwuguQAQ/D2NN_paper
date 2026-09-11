@@ -1,7 +1,7 @@
 {
   "last_notification": {
-    "date": "2026-09-10",
-    "sent_at": "2026-09-10T13:54:09.946486+08:00"
+    "date": "2026-09-11",
+    "sent_at": "2026-09-11T13:53:36.875495+08:00"
   },
   "seen": {
     "arxiv:2608.12300v1": {
@@ -23,6 +23,13 @@
       "sent_at": "2026-08-21T10:35:38.021833+08:00",
       "title": "Hyper‐Parallel Optical Tensor Processors Toward Multitask Neural Networks",
       "url": "https://doi.org/10.1002/lpor.71796",
+      "venue": "Laser &amp; Photonics Reviews"
+    },
+    "doi:10.1002/lpor.71857": {
+      "date": "2026-09-10",
+      "sent_at": "2026-09-11T13:53:36.875495+08:00",
+      "title": "Smoothing Design Reshapes High‐Performance Broadband Optical Diffractive Neural Networks on Fiber End Facets",
+      "url": "https://doi.org/10.1002/lpor.71857",
       "venue": "Laser &amp; Photonics Reviews"
     },
     "doi:10.1021/acsphotonics.6c01125": {
