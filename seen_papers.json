@@ -1,7 +1,7 @@
 {
   "last_notification": {
-    "date": "2026-09-11",
-    "sent_at": "2026-09-11T13:53:36.875495+08:00"
+    "date": "2026-09-12",
+    "sent_at": "2026-09-12T13:41:03.340108+08:00"
   },
   "seen": {
     "arxiv:2608.12300v1": {
@@ -101,6 +101,13 @@
       "title": "T-ONN: Talbot propagation as a low-cost layer in free-space optical neural networks",
       "url": "https://doi.org/10.1364/josab.586315",
       "venue": "Journal of the Optical Society of America B"
+    },
+    "doi:10.1364/oe.592467": {
+      "date": "2026-09-11",
+      "sent_at": "2026-09-12T13:41:03.340108+08:00",
+      "title": "Second-harmonic generation for enhancing the performance of diffractive neural networks",
+      "url": "https://doi.org/10.1364/oe.592467",
+      "venue": "Optics Express"
     },
     "doi:10.1364/oe.597279": {
       "date": "2026-09-03",
