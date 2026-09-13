@@ -1,7 +1,7 @@
 {
   "last_notification": {
-    "date": "2026-09-12",
-    "sent_at": "2026-09-12T13:41:03.340108+08:00"
+    "date": "2026-09-13",
+    "sent_at": "2026-09-13T14:02:20.988229+08:00"
   },
   "seen": {
     "arxiv:2608.12300v1": {
@@ -73,6 +73,13 @@
       "title": "Full-colour imaging behind a glass diffuser through a diffractive neural network with multi-wavelength channels",
       "url": "https://doi.org/10.1038/s44335-026-00096-y",
       "venue": "npj Unconventional Computing"
+    },
+    "doi:10.1117/1.ap.8.5.054001": {
+      "date": "2026-09-12",
+      "sent_at": "2026-09-13T14:02:20.988229+08:00",
+      "title": "Diffractive optical neural networks for intelligent informatics: image processing, communications, and quantum applications",
+      "url": "https://doi.org/10.1117/1.ap.8.5.054001",
+      "venue": "Advanced Photonics"
     },
     "doi:10.1126/sciadv.aee9649": {
       "date": "2026-08-21",
