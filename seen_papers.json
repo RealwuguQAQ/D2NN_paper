@@ -1,7 +1,7 @@
 {
   "last_notification": {
-    "date": "2026-09-15",
-    "sent_at": "2026-09-15T14:08:03.821412+08:00"
+    "date": "2026-09-16",
+    "sent_at": "2026-09-16T13:56:40.414206+08:00"
   },
   "seen": {
     "arxiv:2608.12300v1": {
@@ -58,6 +58,13 @@
       "sent_at": "2026-08-20T10:22:10.365157+08:00",
       "title": "On-chip non-volatile all-optical residual neural network accelerator",
       "url": "https://doi.org/10.1038/s41377-026-02325-2",
+      "venue": "Light: Science &amp; Applications"
+    },
+    "doi:10.1038/s41377-026-02366-7": {
+      "date": "2026-09-16",
+      "sent_at": "2026-09-16T13:56:40.414206+08:00",
+      "title": "Spatiotemporal all-optical diffractive neural networks empowered by spatiotemporal light field manipulation",
+      "url": "https://doi.org/10.1038/s41377-026-02366-7",
       "venue": "Light: Science &amp; Applications"
     },
     "doi:10.1038/s41586-026-10891-z": {
