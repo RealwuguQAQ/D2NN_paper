@@ -1,7 +1,7 @@
 {
   "last_notification": {
-    "date": "2026-09-17",
-    "sent_at": "2026-09-17T14:04:39.799362+08:00"
+    "date": "2026-09-18",
+    "sent_at": "2026-09-18T13:51:22.926561+08:00"
   },
   "seen": {
     "arxiv:2608.12300v1": {
@@ -93,6 +93,13 @@
       "sent_at": "2026-08-21T10:35:38.021833+08:00",
       "title": "Programmable photonic neural engine with all-optical nonlinear activation and 40,000 connections",
       "url": "https://doi.org/10.1126/sciadv.aee9649",
+      "venue": "Science Advances"
+    },
+    "doi:10.1126/sciadv.aeg8394": {
+      "date": "2026-09-18",
+      "sent_at": "2026-09-18T13:51:22.926561+08:00",
+      "title": "Microwave diffractive neural network chips for sensing and computing",
+      "url": "https://doi.org/10.1126/sciadv.aeg8394",
       "venue": "Science Advances"
     },
     "doi:10.1145/3840398": {
