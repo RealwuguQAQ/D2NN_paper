@@ -1,7 +1,7 @@
 {
   "last_notification": {
-    "date": "2026-09-28",
-    "sent_at": "2026-09-28T14:44:07.323538+08:00"
+    "date": "2026-09-29",
+    "sent_at": "2026-09-29T14:49:22.043980+08:00"
   },
   "seen": {
     "arxiv:2608.12300v1": {
@@ -30,6 +30,13 @@
       "sent_at": "2026-09-24T14:06:23.257787+08:00",
       "title": "DNNsolver: Accurate and Efficient Deep Learning Modeling of Polarization-Sensitive Diffractive Neural Networks",
       "url": "http://arxiv.org/abs/2609.27323v1",
+      "venue": "arXiv (preprint)"
+    },
+    "arxiv:2609.34333v1": {
+      "date": "2026-09-28",
+      "sent_at": "2026-09-29T14:49:22.043980+08:00",
+      "title": "Stacked Intelligent Metasurface-Diffractive Deep Neural Networks for Onboard Terrain Classification from SAR Level-0 Raw Data",
+      "url": "http://arxiv.org/abs/2609.34333v1",
       "venue": "arXiv (preprint)"
     },
     "doi:10.1002/adom.71567": {
