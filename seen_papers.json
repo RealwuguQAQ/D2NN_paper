@@ -1,7 +1,7 @@
 {
   "last_notification": {
-    "date": "2026-10-07",
-    "sent_at": "2026-10-07T15:10:23.970947+08:00"
+    "date": "2026-10-08",
+    "sent_at": "2026-10-08T15:16:41.414377+08:00"
   },
   "seen": {
     "arxiv:2608.12300v1": {
@@ -74,6 +74,13 @@
       "url": "https://doi.org/10.1021/acsphotonics.6c01125",
       "venue": "ACS Photonics"
     },
+    "doi:10.1021/acsphotonics.6c01168": {
+      "date": "2026-10-08",
+      "sent_at": "2026-10-08T15:16:41.414377+08:00",
+      "title": "Spectrally Filtered Optical Convolutional Neural Network for Shift-Robust Bright-Field Classification",
+      "url": "https://doi.org/10.1021/acsphotonics.6c01168",
+      "venue": "ACS Photonics"
+    },
     "doi:10.1038/s41377-026-02229-1": {
       "date": "2026-07-15",
       "sent_at": "2026-07-15T12:11:31.095359+08:00",
@@ -101,6 +108,13 @@
       "title": "Spatiotemporal all-optical diffractive neural networks empowered by spatiotemporal light field manipulation",
       "url": "https://doi.org/10.1038/s41377-026-02366-7",
       "venue": "Light: Science &amp; Applications"
+    },
+    "doi:10.1038/s41467-026-77376-5": {
+      "date": "2026-10-07",
+      "sent_at": "2026-10-08T15:16:41.414377+08:00",
+      "title": "Deep diffractive optical neural networks for detecting skyrmionic topologies of light and their live training",
+      "url": "https://doi.org/10.1038/s41467-026-77376-5",
+      "venue": "Nature Communications"
     },
     "doi:10.1038/s41586-026-10891-z": {
       "date": "2026-08-12",
