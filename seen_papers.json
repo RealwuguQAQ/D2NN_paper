@@ -1,7 +1,7 @@
 {
   "last_notification": {
-    "date": "2026-10-08",
-    "sent_at": "2026-10-08T15:16:41.414377+08:00"
+    "date": "2026-10-09",
+    "sent_at": "2026-10-09T15:20:13.161212+08:00"
   },
   "seen": {
     "arxiv:2608.12300v1": {
@@ -37,6 +37,13 @@
       "sent_at": "2026-09-29T14:49:22.043980+08:00",
       "title": "Stacked Intelligent Metasurface-Diffractive Deep Neural Networks for Onboard Terrain Classification from SAR Level-0 Raw Data",
       "url": "http://arxiv.org/abs/2609.34333v1",
+      "venue": "arXiv (preprint)"
+    },
+    "arxiv:2610.11274v1": {
+      "date": "2026-10-08",
+      "sent_at": "2026-10-09T15:20:13.161212+08:00",
+      "title": "Full-Vector Diffractive Deep Neural Networks",
+      "url": "http://arxiv.org/abs/2610.11274v1",
       "venue": "arXiv (preprint)"
     },
     "doi:10.1002/adom.71567": {
