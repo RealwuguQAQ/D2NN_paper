@@ -1,7 +1,7 @@
 {
   "last_notification": {
-    "date": "2026-10-15",
-    "sent_at": "2026-10-15T13:50:27.151725+08:00"
+    "date": "2026-10-16",
+    "sent_at": "2026-10-16T13:46:55.579500+08:00"
   },
   "seen": {
     "arxiv:2608.12300v1": {
@@ -213,6 +213,13 @@
       "title": "Optical diffractive layers 3D-integrated on a silicon photonic chip for high-density optical neural networks",
       "url": "https://doi.org/10.1364/prj.591330",
       "venue": "Photonics Research"
+    },
+    "doi:10.3390/bdcc10100349": {
+      "date": "2026-10-15",
+      "sent_at": "2026-10-16T13:46:55.579500+08:00",
+      "title": "Fast Optical Image Compression Based on a Hybrid D2NN–ENN Autoencoder",
+      "url": "https://doi.org/10.3390/bdcc10100349",
+      "venue": "Big Data and Cognitive Computing"
     }
   }
 }
