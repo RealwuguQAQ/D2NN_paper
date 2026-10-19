@@ -1,7 +1,7 @@
 {
   "last_notification": {
-    "date": "2026-10-18",
-    "sent_at": "2026-10-18T13:47:42.885003+08:00"
+    "date": "2026-10-19",
+    "sent_at": "2026-10-19T14:04:50.171054+08:00"
   },
   "seen": {
     "arxiv:2608.12300v1": {
@@ -52,6 +52,13 @@
       "title": "On‐Chip Photonic Neural Network Architectures",
       "url": "https://doi.org/10.1002/adom.71567",
       "venue": "Advanced Optical Materials"
+    },
+    "doi:10.1002/advs.78340": {
+      "date": "2026-10-18",
+      "sent_at": "2026-10-19T14:04:50.171054+08:00",
+      "title": "Spatiotemporal Computational Meta‐Imager for Broadband Dual‐Layer Optical Convolution",
+      "url": "https://doi.org/10.1002/advs.78340",
+      "venue": "Advanced Science"
     },
     "doi:10.1002/lpor.71796": {
       "date": "2026-08-20",
