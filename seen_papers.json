@@ -1,7 +1,7 @@
 {
   "last_notification": {
-    "date": "2026-10-22",
-    "sent_at": "2026-10-22T14:03:24.943454+08:00"
+    "date": "2026-10-23",
+    "sent_at": "2026-10-23T13:58:57.892346+08:00"
   },
   "seen": {
     "arxiv:2608.12300v1": {
@@ -80,6 +80,13 @@
       "title": "Cascaded Metasurfaces Enabled Sequencable Diffractive Processor for Multi‐Task Processing and Encryption",
       "url": "https://doi.org/10.1002/lpor.71919",
       "venue": "Laser &amp; Photonics Reviews"
+    },
+    "doi:10.1002/nap2.70315": {
+      "date": "2026-10-22",
+      "sent_at": "2026-10-23T13:58:57.892346+08:00",
+      "title": "All‐Optical Dual‐Angle Diffractive Neural Networks for 2D Direction‐of‐Arrival Estimation",
+      "url": "https://doi.org/10.1002/nap2.70315",
+      "venue": "Nanophotonics"
     },
     "doi:10.1021/acsphotonics.6c01125": {
       "date": "2026-08-10",
