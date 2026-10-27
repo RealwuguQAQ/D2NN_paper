@@ -1,7 +1,7 @@
 {
   "last_notification": {
-    "date": "2026-10-26",
-    "sent_at": "2026-10-26T14:03:30.693568+08:00"
+    "date": "2026-10-27",
+    "sent_at": "2026-10-27T14:12:39.327682+08:00"
   },
   "seen": {
     "arxiv:2608.12300v1": {
@@ -100,6 +100,13 @@
       "sent_at": "2026-10-08T15:16:41.414377+08:00",
       "title": "Spectrally Filtered Optical Convolutional Neural Network for Shift-Robust Bright-Field Classification",
       "url": "https://doi.org/10.1021/acsphotonics.6c01168",
+      "venue": "ACS Photonics"
+    },
+    "doi:10.1021/acsphotonics.6c01531": {
+      "date": "2026-10-27",
+      "sent_at": "2026-10-27T14:12:39.327682+08:00",
+      "title": "Parallel Spatial–Frequency Diffractive Neural Networks for Autonomous-Driving Visual Understanding",
+      "url": "https://doi.org/10.1021/acsphotonics.6c01531",
       "venue": "ACS Photonics"
     },
     "doi:10.1038/s41377-026-02229-1": {
