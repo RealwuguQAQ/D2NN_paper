@@ -1,7 +1,7 @@
 {
   "last_notification": {
-    "date": "2026-10-27",
-    "sent_at": "2026-10-27T14:12:39.327682+08:00"
+    "date": "2026-10-28",
+    "sent_at": "2026-10-28T14:48:56.930711+08:00"
   },
   "seen": {
     "arxiv:2608.12300v1": {
@@ -79,6 +79,13 @@
       "sent_at": "2026-09-19T13:46:38.066387+08:00",
       "title": "Cascaded Metasurfaces Enabled Sequencable Diffractive Processor for Multi‐Task Processing and Encryption",
       "url": "https://doi.org/10.1002/lpor.71919",
+      "venue": "Laser &amp; Photonics Reviews"
+    },
+    "doi:10.1002/lpor.72146": {
+      "date": "2026-10-27",
+      "sent_at": "2026-10-28T14:48:56.930711+08:00",
+      "title": "Complex‐Field Diffractive Processor‐Enabled Optical Encryption",
+      "url": "https://doi.org/10.1002/lpor.72146",
       "venue": "Laser &amp; Photonics Reviews"
     },
     "doi:10.1002/nap2.70315": {
