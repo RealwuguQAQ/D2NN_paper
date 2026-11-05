@@ -1,7 +1,7 @@
 {
   "last_notification": {
-    "date": "2026-11-04",
-    "sent_at": "2026-11-04T15:27:41.279595+08:00"
+    "date": "2026-11-05",
+    "sent_at": "2026-11-05T15:52:50.232325+08:00"
   },
   "seen": {
     "arxiv:2608.12300v1": {
@@ -240,6 +240,13 @@
       "sent_at": "2026-09-04T13:47:58.547859+08:00",
       "title": "Enhancing diffractive neural networks via gradient decoupling: a geometric perspective on physical constraints",
       "url": "https://doi.org/10.1364/oe.597279",
+      "venue": "Optics Express"
+    },
+    "doi:10.1364/oe.607289": {
+      "date": "2026-11-04",
+      "sent_at": "2026-11-05T15:52:50.232325+08:00",
+      "title": "Quantization-aware nonlinear diffractive neural network for robust optical image reconstruction under fabrication constraints",
+      "url": "https://doi.org/10.1364/oe.607289",
       "venue": "Optics Express"
     },
     "doi:10.1364/ome.604856": {
