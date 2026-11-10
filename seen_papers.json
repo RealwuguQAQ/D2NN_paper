@@ -1,7 +1,7 @@
 {
   "last_notification": {
-    "date": "2026-11-09",
-    "sent_at": "2026-11-09T15:53:14.003738+08:00"
+    "date": "2026-11-10",
+    "sent_at": "2026-11-10T16:21:38.497401+08:00"
   },
   "seen": {
     "arxiv:2608.12300v1": {
@@ -178,6 +178,13 @@
       "title": "Diffractive optical neural networks for intelligent informatics: image processing, communications, and quantum applications",
       "url": "https://doi.org/10.1117/1.ap.8.5.054001",
       "venue": "Advanced Photonics"
+    },
+    "doi:10.1117/1.apn.5.6.066020": {
+      "date": "2026-11-10",
+      "sent_at": "2026-11-10T16:21:38.497401+08:00",
+      "title": "Monolithically integrated silicon photonic chip for broadband all-optical logic gates based on scattering metastructure",
+      "url": "https://doi.org/10.1117/1.apn.5.6.066020",
+      "venue": "Advanced Photonics Nexus"
     },
     "doi:10.1117/1.oe.65.10.107102": {
       "date": "2026-10-16",
