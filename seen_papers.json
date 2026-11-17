@@ -1,7 +1,7 @@
 {
   "last_notification": {
-    "date": "2026-11-16",
-    "sent_at": "2026-11-16T15:54:09.228309+08:00"
+    "date": "2026-11-17",
+    "sent_at": "2026-11-17T17:07:30.493688+08:00"
   },
   "seen": {
     "arxiv:2608.12300v1": {
@@ -262,6 +262,13 @@
       "title": "Metasurface-based diffractive neural networks for security-enhanced image processing [Invited]",
       "url": "https://doi.org/10.1364/ome.604856",
       "venue": "Optical Materials Express"
+    },
+    "doi:10.1364/opticaq.603710": {
+      "date": "2026-11-16",
+      "sent_at": "2026-11-17T17:07:30.493688+08:00",
+      "title": "Quantum photonic neural networks in time",
+      "url": "https://doi.org/10.1364/opticaq.603710",
+      "venue": "Optica Quantum"
     },
     "doi:10.1364/prj.591330": {
       "date": "2026-07-24",
