@@ -1,7 +1,7 @@
 {
   "last_notification": {
-    "date": "2026-11-20",
-    "sent_at": "2026-11-20T16:26:28.444366+08:00"
+    "date": "2026-11-21",
+    "sent_at": "2026-11-21T16:13:51.131821+08:00"
   },
   "seen": {
     "arxiv:2608.12300v1": {
@@ -275,6 +275,13 @@
       "sent_at": "2026-07-25T12:21:38.345998+08:00",
       "title": "Optical diffractive layers 3D-integrated on a silicon photonic chip for high-density optical neural networks",
       "url": "https://doi.org/10.1364/prj.591330",
+      "venue": "Photonics Research"
+    },
+    "doi:10.1364/prj.616232": {
+      "date": "2026-11-20",
+      "sent_at": "2026-11-21T16:13:51.131821+08:00",
+      "title": "Monolithic Multilayer Diffractive Neural Networks for Deep and High-Capacity Spectral Parallel Computing",
+      "url": "https://doi.org/10.1364/prj.616232",
       "venue": "Photonics Research"
     },
     "doi:10.3390/bdcc10100349": {
