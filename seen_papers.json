@@ -1,7 +1,7 @@
 {
   "last_notification": {
-    "date": "2026-11-23",
-    "sent_at": "2026-11-23T16:56:13.832812+08:00"
+    "date": "2026-11-24",
+    "sent_at": "2026-11-24T18:50:47.446745+08:00"
   },
   "seen": {
     "arxiv:2608.12300v1": {
@@ -184,6 +184,13 @@
       "sent_at": "2026-11-10T16:21:38.497401+08:00",
       "title": "Monolithically integrated silicon photonic chip for broadband all-optical logic gates based on scattering metastructure",
       "url": "https://doi.org/10.1117/1.apn.5.6.066020",
+      "venue": "Advanced Photonics Nexus"
+    },
+    "doi:10.1117/1.apn.6.1.016013": {
+      "date": "2026-11-24",
+      "sent_at": "2026-11-24T18:50:47.446745+08:00",
+      "title": "Mechanically programmable bidirectional spectral operators in rotating diffractive neural networks",
+      "url": "https://doi.org/10.1117/1.apn.6.1.016013",
       "venue": "Advanced Photonics Nexus"
     },
     "doi:10.1117/1.oe.65.10.107102": {
