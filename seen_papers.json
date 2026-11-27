@@ -1,7 +1,7 @@
 {
   "last_notification": {
-    "date": "2026-11-26",
-    "sent_at": "2026-11-26T17:25:11.893542+08:00"
+    "date": "2026-11-27",
+    "sent_at": "2026-11-27T17:37:32.656974+08:00"
   },
   "seen": {
     "arxiv:2608.12300v1": {
@@ -86,6 +86,13 @@
       "sent_at": "2026-10-28T14:48:56.930711+08:00",
       "title": "Complex‐Field Diffractive Processor‐Enabled Optical Encryption",
       "url": "https://doi.org/10.1002/lpor.72146",
+      "venue": "Laser &amp; Photonics Reviews"
+    },
+    "doi:10.1002/lpor.72286": {
+      "date": "2026-11-26",
+      "sent_at": "2026-11-27T17:37:32.656974+08:00",
+      "title": "Machine Learning Assisted Neuron Scattering Control for Full Space Multi‐Channel Diffractive Neural Networks",
+      "url": "https://doi.org/10.1002/lpor.72286",
       "venue": "Laser &amp; Photonics Reviews"
     },
     "doi:10.1002/nap2.70315": {
